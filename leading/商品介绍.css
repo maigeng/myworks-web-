@@ -1,0 +1,205 @@
+.xm-product-box{
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    -webkit-box-shadow: 0 5px 5px rgb(0 0 0 / 7%);
+    box-shadow: 0 5px 5px rgb(0 0 0 / 7%);
+}
+.xm-product-box .nav-bar{
+    position: relative;
+    height: 63px;
+    width: 100%;
+    margin-top: 0;
+    color: #616161;
+}
+.new_container{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.xm-product-box .nav-bar h2{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 60px;
+    color: #424242;
+    float: left;
+}
+.new_container_right{
+    float: right;
+    margin: 17px 0 0 0;
+}
+.product-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    /*justify-content: center;*/
+    padding-top: 32px;
+    padding-bottom: 12px
+}
+.img-left{
+
+    position: relative;
+    float: left;
+}
+.img-left img{
+    width: 690px;
+    height: 540px;
+}
+.product-con{
+    /*width: 300px;*/
+    margin-left: 80px;
+    width: 500px;
+    /*height: 739px;*/
+    float: right;
+}
+.product-con .sale-desc{
+    color: #b0b0b0
+}
+.product-con .company-info{
+    color: #ff6700;
+}
+.product-con .address-box{
+    padding: 30px 50px;
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    margin: 20px 0
+    /*width: 300px;*/
+}
+.buy-option .title{
+    font-size: 18px;
+}
+.buy-option ul{
+    height: 50px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+}
+.buy-option li{
+
+    margin-right: 12px;
+    margin-top: 10px;
+    line-height: 42px;
+    height: 42px;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    list-style: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    float: left;
+    width: 292px;
+    font-size: 16px;
+    text-align: center
+
+    /*border-color: #ff6700*/
+}
+.buy-option li.active,.buy-option li:hover{
+    border-color: #ff6700
+}
+.buy-option li.active a,.buy-option li:hover a{
+    color: #ff6700;
+}
+.buy-option li a{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.selected-list{
+    background: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.selected-list .total-price{
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.btn-box{
+    margin: 10px 0 20px 0;
+}
+.sale-btn{
+    display: inline-block;
+    margin-right: 10px;
+}
+.btn {
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.sale-btn .btn{
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+}
+.btn-primary{
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #ffffff;
+}
+.favorite-btn{
+    display: inline-block;
+}
+.btn-like{
+    display: block;
+    width: 140px;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-size: 16px;
+    position: relative;
+}
+.btn-gray{
+    background: #b0b0b0;
+    border-color: #b0b0b0;
+    color: #fff
+}
+.after-sale-info span{
+    display: inline-block;
+}
+.after-sale-info a{
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    cursor: default;
+    white-space: nowrap;
+    color: #b0b0b0;
+}
+.image-video-box{
+    margin-top: 20px;
+    border-top: 2px solid lightskyblue;
+}
+.image-video-box p{
+   text-align: center;
+}
